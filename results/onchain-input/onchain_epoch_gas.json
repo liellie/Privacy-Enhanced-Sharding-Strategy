@@ -1,0 +1,657 @@
+{
+  "run_id": "reference-study",
+  "source": "epoch-driver.js",
+  "byzantine": true,
+  "epochs": [
+    {
+      "epoch": 3539,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18732,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18834,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4693,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 75099,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 921332,
+          "wall_ms": 18660,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 607874,
+          "wall_ms": 18730,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4706,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 411062,
+          "wall_ms": 18684,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4668,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126680,
+          "wall_ms": 4620,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3542,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202032,
+          "wall_ms": 18709,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288740,
+          "wall_ms": 18731,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4685,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 74788,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 921200,
+          "wall_ms": 18693,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 695474,
+          "wall_ms": 18918,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4686,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 411456,
+          "wall_ms": 18646,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4690,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126689,
+          "wall_ms": 4697,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3545,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18722,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18582,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4668,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 74852,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 922412,
+          "wall_ms": 18747,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 624274,
+          "wall_ms": 18897,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4723,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410780,
+          "wall_ms": 18709,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4699,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126672,
+          "wall_ms": 4654,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3548,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18841,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288740,
+          "wall_ms": 18663,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4736,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 75101,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 922544,
+          "wall_ms": 18694,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 627074,
+          "wall_ms": 18784,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4690,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410154,
+          "wall_ms": 18717,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4754,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126672,
+          "wall_ms": 4729,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3552,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18844,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18692,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4688,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 75181,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 920700,
+          "wall_ms": 18885,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 627074,
+          "wall_ms": 18774,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4738,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 411684,
+          "wall_ms": 18835,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4689,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126672,
+          "wall_ms": 4643,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3555,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18675,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18804,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4631,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 74896,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 922280,
+          "wall_ms": 18804,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 627074,
+          "wall_ms": 18686,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4665,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410718,
+          "wall_ms": 18870,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4628,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126681,
+          "wall_ms": 4661,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3558,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202032,
+          "wall_ms": 18678,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18706,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4726,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901232,
+          "wall_ms": 74669,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 921200,
+          "wall_ms": 18799,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 621474,
+          "wall_ms": 18772,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4695,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 412136,
+          "wall_ms": 18751,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4649,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126681,
+          "wall_ms": 4694,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3561,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18702,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288740,
+          "wall_ms": 18742,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4663,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901220,
+          "wall_ms": 74756,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 923176,
+          "wall_ms": 18758,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 624274,
+          "wall_ms": 18805,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4686,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410042,
+          "wall_ms": 18671,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4666,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126681,
+          "wall_ms": 4637,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3564,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18779,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288728,
+          "wall_ms": 18949,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4666,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901220,
+          "wall_ms": 74655,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 923624,
+          "wall_ms": 18924,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 627074,
+          "wall_ms": 18734,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4694,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410834,
+          "wall_ms": 18860,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4632,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126689,
+          "wall_ms": 4657,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "epoch": 3568,
+      "steps": [
+        {
+          "name": "commit",
+          "gas_used": 202044,
+          "wall_ms": 18648,
+          "count": 4
+        },
+        {
+          "name": "reveal",
+          "gas_used": 288740,
+          "wall_ms": 18830,
+          "count": 4
+        },
+        {
+          "name": "finalize",
+          "gas_used": 74088,
+          "wall_ms": 4712,
+          "count": 1
+        },
+        {
+          "name": "submit",
+          "gas_used": 2901220,
+          "wall_ms": 75026,
+          "count": 16
+        },
+        {
+          "name": "finalizeShard",
+          "gas_used": 921596,
+          "wall_ms": 18784,
+          "count": 4
+        },
+        {
+          "name": "syncShard",
+          "gas_used": 627074,
+          "wall_ms": 18846,
+          "count": 4
+        },
+        {
+          "name": "adjustWeights",
+          "gas_used": 92664,
+          "wall_ms": 4652,
+          "count": 1
+        },
+        {
+          "name": "publish",
+          "gas_used": 410382,
+          "wall_ms": 18609,
+          "count": 4
+        },
+        {
+          "name": "recordBatch",
+          "gas_used": 35866,
+          "wall_ms": 4705,
+          "count": 1
+        },
+        {
+          "name": "step",
+          "gas_used": 126672,
+          "wall_ms": 4625,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

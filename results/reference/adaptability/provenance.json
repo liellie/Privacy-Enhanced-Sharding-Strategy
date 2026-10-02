@@ -1,0 +1,48 @@
+{
+  "description": "Archived experiment configuration, recorded environment and output checksums.",
+  "original_python_version": "3.14.7",
+  "dependencies": {
+    "pycryptodome": "3.23.0"
+  },
+  "cli_args": {
+    "out": "outputs/adaptability",
+    "shards": 4,
+    "blocks_per_epoch": 100,
+    "theta": 0.15,
+    "epsilon": 0.2,
+    "seed": 20260801,
+    "limit": null,
+    "eval_pairs": 20000,
+    "sweep_epsilons": "0.1,0.2,0.5,0.8,1.2,2.0",
+    "repeats": 5,
+    "seeds": null,
+    "spike_epoch": 12,
+    "spike_factor": 3,
+    "frontier_weights": "0:3.0:0.1",
+    "predictor": "holt",
+    "intra_epoch_feedback": 4.5,
+    "honest_noise_pct": 2,
+    "byz_source_epoch": 10,
+    "permutation_runs": null,
+    "frontier_repeat_ws": "1.5,1.6,1.8,2.0,2.4,3.0",
+    "packing_ws": "1.5,1.8,2.0,2.4",
+    "only": "adapt",
+    "all": false,
+    "no_chain_check": false,
+    "skip_sweep": false
+  },
+  "data": {
+    "path": "experiments/data/transactions.txt",
+    "sha256": "65417b9f1efc977296157dd4c5af9307960a022b80153ed89b06a8fc43862e1d"
+  },
+  "outputs": [
+    {
+      "path": "adaptability.csv",
+      "sha256": "609234762a12667a9f64142938b2e2664404eb7fd45f85e800ee814d5a8ddb89"
+    },
+    {
+      "path": "adaptability_summary.csv",
+      "sha256": "b5c9325d8b9c7061aedfc8acd841b871e84c790790b7c407b0231fe40bdc58df"
+    }
+  ]
+}

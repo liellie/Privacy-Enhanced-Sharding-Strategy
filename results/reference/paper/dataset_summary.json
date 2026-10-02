@@ -1,0 +1,50 @@
+{
+  "total_transactions": 47482,
+  "unique_addresses": 30085,
+  "unique_senders": 20661,
+  "unique_receivers": 14091,
+  "block_min": 21688226,
+  "block_max": 21690401,
+  "block_span": 2176,
+  "time_min": "2025-01-23T23:55:59+08:00",
+  "time_max": "2025-01-24T07:12:11+08:00",
+  "top5_activity": [
+    7267,
+    4688,
+    2684,
+    2200,
+    2172
+  ],
+  "top5_addresses": [
+    "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "0x46340b20830761efd32832a74d7169b29feb9758",
+    "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+    "0xeba88149813bec1cccccfdb0dacefaaa5de94cb1"
+  ],
+  "interacting_pairs": 32394,
+  "power_law_exponent": 1.9105052903264506,
+  "affinity": {
+    "theta": 0.15,
+    "num_groups": 3998,
+    "grouped_addresses": 13089,
+    "ungrouped_addresses": 16996,
+    "largest_group": 76,
+    "mean_group_size": 3.273886943471736,
+    "largest_group_activity_pct": 9.871109051851228,
+    "grouped_activity_pct": 53.16962217261278,
+    "ungrouped_activity_pct": 46.830377827387224,
+    "top10_group_activity_pct": 19.013520913188156
+  },
+  "source_file": "experiments/data/transactions.txt",
+  "source_sha256": "65417b9f1efc977296157dd4c5af9307960a022b80153ed89b06a8fc43862e1d",
+  "eval_pairs": {
+    "n_pairs": 20000,
+    "n_pos": 10000,
+    "n_neg": 10000,
+    "positive_base_rate_pct": 50,
+    "n_epochs": 22,
+    "min_epochs": 1,
+    "n_candidates": 30085
+  }
+}

@@ -1,0 +1,1046 @@
+{
+  "project": "shardchain",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "fba94c6ab96f12dd1da7597d0e77acd552faf70030e2fcb6c7fe5329e9533405",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/replay.yml",
+      "sha256": "c676360e27585e0b69e512b84d83696aa1d6e2dc3962c2a83979a98d4732ca4e",
+      "size": 636
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "dbfd856c61da1ec779d37ee042414145f9f4a04b5b7ff3c9b018cd6b950481be",
+      "size": 636
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "b111090fb09affad67b92c5fb33c47375cbcf7ff8da449b56fd060a85aa55d10",
+      "size": 604
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1e5388090f2ca329ff3e104ab2ab6835017f90be384829dcbc77055775a0c556",
+      "size": 1080
+    },
+    {
+      "path": "README.md",
+      "sha256": "bfdb84d49c876ed8fd1fac20f6830ef7e2f2ae56ab970acd81e66a309b8f0de2",
+      "size": 5062
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "9eb8bb8f07c63606b4470c81be116dd8792f161a97af69488a954940e5f63638",
+      "size": 1980
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "e77b5837abb826a1825901b0453a080dc1caae8db8cf3aa41883e0783b0f79c3",
+      "size": 977
+    },
+    {
+      "path": "chain/config/qbft-config.json",
+      "sha256": "6df177187cf8ea335826b00efc2c4064dabcdea933e5ac1b92cca2e220df95ad",
+      "size": 835
+    },
+    {
+      "path": "chain/docker-compose.yml",
+      "sha256": "1fec5cace6f6fa21a3b198db0cc910a965d1905254dd8f5ffa668e2f0fe2d0be",
+      "size": 4611
+    },
+    {
+      "path": "chain/scripts/01-init-network.sh",
+      "sha256": "a7b5ac3e330260ae9ecd9b8edb513592b1bc4eb5eedd2b4eecc016352d02b47d",
+      "size": 3961
+    },
+    {
+      "path": "chain/scripts/02-up.sh",
+      "sha256": "add5c5e51bf3c2ac74a9eaab8e8a545829037e05d24953aa7ae5685f0bb86882",
+      "size": 1666
+    },
+    {
+      "path": "chain/scripts/03-netem.sh",
+      "sha256": "2720b0de74e710525c9caf1805204911f2b2478d681129cd8f512cdc0bf9a137",
+      "size": 1264
+    },
+    {
+      "path": "chain/scripts/04-status.sh",
+      "sha256": "3bbcffa5eabde729087ae4ddc77be2c3f40473ef84a91146685aeab2ff9adb2a",
+      "size": 1898
+    },
+    {
+      "path": "chain/scripts/create-coordinator-wallet.js",
+      "sha256": "c0e1732ce377aa41f70409cdc1236bdd6cb5f1f1bce7c5b6c663f53b12945d91",
+      "size": 1352
+    },
+    {
+      "path": "contracts/AffinityManager.sol",
+      "sha256": "59fab183b43378017623e5c0ce5ef6c165b621a047af642cb6cba221085f2561",
+      "size": 8454
+    },
+    {
+      "path": "contracts/CrossShardCoordinator.sol",
+      "sha256": "3097bd7dc491da3c072cb1e6dace47ac31dd5cfa3f36a772faa3850e0f72afcc",
+      "size": 9877
+    },
+    {
+      "path": "contracts/CrossShardCounter.sol",
+      "sha256": "8228b0d94ac119a1b34a2d730ab97a7bd86502b3d8915bdbaaa4f630a3e857ce",
+      "size": 1817
+    },
+    {
+      "path": "contracts/CrossShardMetricsAdapter.sol",
+      "sha256": "2037d567aa4251056b437c2bbf7ad7040bad98b1f3ed04631f6f463bd882ec1a",
+      "size": 844
+    },
+    {
+      "path": "contracts/DeterministicLaplace.sol",
+      "sha256": "b08c5bf38f3c883d23c1884eb997b4313000ae65fa0a634cb338e37183486bca",
+      "size": 1599
+    },
+    {
+      "path": "contracts/DigitalAssetRegistry.sol",
+      "sha256": "d5cbe174e073b9087f4d6c32e9e8653e254ee3e46b1d283164b6b0003d9aee58",
+      "size": 7115
+    },
+    {
+      "path": "contracts/EnhancedShardRegistryV2.sol",
+      "sha256": "cc3f612c5cf46a39b2b097e0db31580a9a4330b34534e3fb3315cc48f9971033",
+      "size": 23542
+    },
+    {
+      "path": "contracts/EpochBeacon.sol",
+      "sha256": "6e971efe6318d760fbac52ef584e50968ff5fd1273e43c1b948d4b755374201d",
+      "size": 4089
+    },
+    {
+      "path": "contracts/FixedPointMath.sol",
+      "sha256": "8c7777ca7568c36d40aaaccc4106a9ba9b078a9780e24b92292e18ba4e568c1c",
+      "size": 3840
+    },
+    {
+      "path": "contracts/MathProbe.sol",
+      "sha256": "c67aea77407bb6e700d7a5bfef95ff64b371fa1d3f3c72bbfabc421dc160052d",
+      "size": 1083
+    },
+    {
+      "path": "contracts/MultiObjectiveController.sol",
+      "sha256": "d916c548c1b50d64003ce0189ba19cb943d566fc7f65856bc82427122e1f9e7d",
+      "size": 5593
+    },
+    {
+      "path": "contracts/ResourceOracle.sol",
+      "sha256": "68e7196a3f7ebb7f21d730b4a251e4dc08fbc2bf1ad3a77419c86c5abdf4a908",
+      "size": 5573
+    },
+    {
+      "path": "contracts/ValidatorRegistry.sol",
+      "sha256": "cc33b95cde3944e2ae065a6bfe4735afabadb6e2afb748d116fbb0979b007e6f",
+      "size": 7708
+    },
+    {
+      "path": "deploy/compile.sh",
+      "sha256": "35978c17dcc794be088c59f3d2ea508ce8348681fc2ee686f3f5232c2efe3de6",
+      "size": 2661
+    },
+    {
+      "path": "deploy/package-lock.json",
+      "sha256": "0ba5bab889703d5fb0bfd8482b79d60e64ea4655f6a35efd0b74420eea14ef29",
+      "size": 4096
+    },
+    {
+      "path": "deploy/package.json",
+      "sha256": "167af0c7aa6af295984cc2c61b58203dff52f4eaec9f626023e62cffe89c77fa",
+      "size": 292
+    },
+    {
+      "path": "deploy/scripts/deploy.js",
+      "sha256": "23321fd199818b97ec2319ed912429753b574b1fe721df51ecbbad49672f0d3e",
+      "size": 7204
+    },
+    {
+      "path": "deploy/scripts/epoch-driver.js",
+      "sha256": "3e9e9fb3ad73f1c2edc863e983fa2a7216c6737c441871afaaae513a43b7468c",
+      "size": 11218
+    },
+    {
+      "path": "deploy/scripts/generate-ops.js",
+      "sha256": "9c7836d46fc71a5b6ec74dc80547882b76d3c29fed5e20a61e91679e276b27e0",
+      "size": 21034
+    },
+    {
+      "path": "deploy/scripts/onchain-benchmark.js",
+      "sha256": "b0a2b414eca92c3009154df44f24440a38baca162de413651c7ab7b02b246d47",
+      "size": 16205
+    },
+    {
+      "path": "deploy/scripts/register-shard-addresses.js",
+      "sha256": "4b4a64f70d677ce64852ccdbd94bf16634fa60e130daa740b89fb18bf9ca77a2",
+      "size": 3366
+    },
+    {
+      "path": "deploy/scripts/set-lambda.js",
+      "sha256": "9e59eec95a38fe70202b43f1250c1a39183a4814fa8e2ab4520e9f759cb41a21",
+      "size": 3588
+    },
+    {
+      "path": "deploy/scripts/verify-routing.js",
+      "sha256": "dc537780c9c4f850af09bd70abc08c31014c09ec538d72f685f404f5694327fa",
+      "size": 993
+    },
+    {
+      "path": "docs/CHAIN.md",
+      "sha256": "26a60b6976135f427a3f362de81509c89b1dbf78d9c3edc479ba9d2b8cee5544",
+      "size": 3740
+    },
+    {
+      "path": "docs/IMPLEMENTATION_SCOPE.md",
+      "sha256": "f8b9f411fc31f1cb1bc8c137a544e963198556e808f8778f8dd9f18008f35aff",
+      "size": 4438
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "sha256": "9a41953346112ffa4313edc277418541be2c01800cca08bc7ef6090f08067bb3",
+      "size": 566
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "e56ec342d08f787bb2434759d54e7d9fb1fc96280c893bc0d4eb7f708bed57b6",
+      "size": 5249
+    },
+    {
+      "path": "docs/RESULTS_MAP.md",
+      "sha256": "90c98c505463b5a505c84c9b4d0a5dd060feea495f0ad1104a130c3bf2e264f6",
+      "size": 2174
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256": "d62308836d96cfd31d74af696d2e12f7bc19d4ef3359ded91d6918d2be6bf6e0",
+      "size": 1050
+    },
+    {
+      "path": "experiments/arima_predict.py",
+      "sha256": "23bb44611a749b51159debfcd9ba47ba56a0da6d8baaa643b2eeb03f59128710",
+      "size": 2126
+    },
+    {
+      "path": "experiments/crosscheck_onchain.py",
+      "sha256": "0b261980fcad3f5e702f1bd24e70ac81f4e7c3a07a80e1c6f741e3595d3f82d6",
+      "size": 9201
+    },
+    {
+      "path": "experiments/data/README.md",
+      "sha256": "af71d122f1a5863870432887fdb235ea5c68e6c384916ff7b0f0e50eebc6c683",
+      "size": 1577
+    },
+    {
+      "path": "experiments/data/transactions.txt",
+      "sha256": "65417b9f1efc977296157dd4c5af9307960a022b80153ed89b06a8fc43862e1d",
+      "size": 12259109
+    },
+    {
+      "path": "experiments/replay_experiments.py",
+      "sha256": "b21785006b552111e4432a209d7f6211fa1cceb0aeef1ba8fe2300f88c5d7f5e",
+      "size": 63224
+    },
+    {
+      "path": "experiments/requirements-plot.txt",
+      "sha256": "50b227e59cc4c1b401b13a130771d05cc5cc8630398ec0d2d422bd8587c8aaf7",
+      "size": 54
+    },
+    {
+      "path": "experiments/requirements.txt",
+      "sha256": "8af6d5cfebc5c65614d58aee1d40b734d61d9ce4741ef03bad97749a4aa24145",
+      "size": 21
+    },
+    {
+      "path": "experiments/run_experiment.py",
+      "sha256": "68b5e040c770339b43aeaa56910c3bbf5d59f0f6d2f41f62e28b133f4dfea8ef",
+      "size": 11825
+    },
+    {
+      "path": "experiments/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "experiments/src/attacks.py",
+      "sha256": "39ac66b34d60e7064296a22ce13a8da40be2b1bcdd0033055a80f1e8242e3c38",
+      "size": 5646
+    },
+    {
+      "path": "experiments/src/dataset.py",
+      "sha256": "50ef1971fe99a285c4cbe6cf2a6b6f5ddda2002ddac0122b569c35572a604a9f",
+      "size": 13098
+    },
+    {
+      "path": "experiments/src/privacy.py",
+      "sha256": "dec1496e282b05c173f663675f08e7b0221f428ded98b2ee9306cd3783e949c7",
+      "size": 6692
+    },
+    {
+      "path": "experiments/src/report.py",
+      "sha256": "c3d776c3a04116e5e6f016a6980b8a3c83f0a636f251a4c640d801d5984bf3ff",
+      "size": 8111
+    },
+    {
+      "path": "experiments/src/strategies.py",
+      "sha256": "68832541b159faf9444dff504d1ea396bc3fb6e3150b594c38f08c9eef608731",
+      "size": 26045
+    },
+    {
+      "path": "java-control-plane/README.md",
+      "sha256": "e0a41b139bef78bec5278688389cdf3292337d3940732b77a80213af3a18a954",
+      "size": 3209
+    },
+    {
+      "path": "java-control-plane/agent-node/pom.xml",
+      "sha256": "42f47906cc22ec290d830d4fc12584448dc506ceb4d6a27e3fe57d5e79934dfe",
+      "size": 2077
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/AgentNodeApplication.java",
+      "sha256": "cfe3ba48f1cc0f977ef03e5bd00aced8aa3de51c706b2cc7f5ff7b3d2ee7c76d",
+      "size": 403
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/config/SchedulingConfig.java",
+      "sha256": "6780832c8e27eaf1d972be21d2b833a62fb0978ac69956e942df0c1f597e932b",
+      "size": 224
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/controller/AgentController.java",
+      "sha256": "16bf0b459eeb6d6c244b61225c70285ea5949ce905190a3110fb7acae6a7beaf",
+      "size": 2690
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/controller/ApiController.java",
+      "sha256": "225d7a2f179f259584b9aa67b2c6eff16a3f118c046159211c896884a20ea678",
+      "size": 2017
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/dto/LoadStats.java",
+      "sha256": "17f3447f5840b6a088fac189d7785faad10fa9cee3bef5e5dbcf9b23a3fe20e5",
+      "size": 342
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/dto/OnChainOpsRecord.java",
+      "sha256": "cf916b7dafe4a451fdf0c57962c74255dd90b95653e1c13689f189cd9e427f36",
+      "size": 530
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/dto/OpOutcome.java",
+      "sha256": "2aea515f90535ed122c25983a3cf9f453c1ee2be7ea51648a4f2dd2d48312e31",
+      "size": 671
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/entity/AgentNode.java",
+      "sha256": "8d7a376fa2e2afb0d346551e9c0cfd4d305d2eedc7ba671bb02fb8a740767b7c",
+      "size": 346
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/service/ExperimentOpsService.java",
+      "sha256": "eaa7967df214499731c265fcfa64548c97d45dcd6368cc38a000d96bdf50253d",
+      "size": 13424
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/service/NodeService.java",
+      "sha256": "431e6419eb9e9e49a519d596eded40834d79258e9318e4009afed1bad50c997a",
+      "size": 2589
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/service/OnChainOpsReportService.java",
+      "sha256": "fd68cde500a233b87346a59d6db62297034d2e7496f6dac86b599d0db13ad89f",
+      "size": 2611
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/service/TransactionLoadScheduler.java",
+      "sha256": "c292bcb2b9dbd76809f8a4ded03fafac9b1516b0a292e49eef75f8da72d3353b",
+      "size": 2076
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/service/TransactionService.java",
+      "sha256": "45e9af5bc17e889141d0848f657be9646dfff602e1d2ae28d4b907ee8412da9d",
+      "size": 19341
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/java/org/example/util/TransactionFileParser.java",
+      "sha256": "549c4878926abee1ff82c321d2d373dca0bd30faae1b1c94cd4d525d79e87fd6",
+      "size": 1973
+    },
+    {
+      "path": "java-control-plane/agent-node/src/main/resources/application.yaml.template",
+      "sha256": "aee31e607df9a0a79530a41126df8d118f3b96d66f009214f0ae4357e61de4b9",
+      "size": 558
+    },
+    {
+      "path": "java-control-plane/coordinator/pom.xml",
+      "sha256": "1f13a7addb193cca682c47b28a123fb57bbda649f9178917e31458e68d25fcb0",
+      "size": 2250
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/CoordinatorApplication.java",
+      "sha256": "718d32a579c4763c00fe38f00c923b41f31afb9b6d0f1fbd73ecf78e242bb351",
+      "size": 448
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/config/CoordinatorLifecycle.java",
+      "sha256": "36fdf0bd249a4acc04100aae25d8a37aad1b41f2b97563c522a2219e65b408e6",
+      "size": 743
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/config/SchedulingConfig.java",
+      "sha256": "6780832c8e27eaf1d972be21d2b833a62fb0978ac69956e942df0c1f597e932b",
+      "size": 224
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/controller/ApiController.java",
+      "sha256": "54648d5584a017a04c550fb709100a3a9e5115383e2b83e0a3e8f9acb51bef9e",
+      "size": 1870
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/controller/CoordinatorController.java",
+      "sha256": "555ecc9bf0840bd8280eba8a30599af21a0b8df02f509a455aa61190526ab2d3",
+      "size": 2000
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/entity/CoordinatorNode.java",
+      "sha256": "3138d748b5d11d82dd7882bc2ea1a359f16596a5c614eb2d18153358adb6ea99",
+      "size": 363
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/CoordinatorNodeService.java",
+      "sha256": "97e0b18ffbb4054f394b34f1b55eda46604ca0f4fe5a15872ed079176ea77c05",
+      "size": 3037
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/EpochGasRecorder.java",
+      "sha256": "c3a30b15e0ea01cc254fbb3bdd9a68e8e4be902f111c4270751a9da80d45dff6",
+      "size": 4436
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/EpochGasStep.java",
+      "sha256": "1c8fc80bd1c297692ea0f84f447a06c0bc5f063d2d5bf6a541639f4d62b20796",
+      "size": 137
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/EpochScheduler.java",
+      "sha256": "df640520651dce1f539b2f7ffeb9705ed01b56150bd49dcb2903e11112d5ec6b",
+      "size": 6157
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/RebalanceService.java",
+      "sha256": "278747770673407e5a422113218f69f5e8dce03914e6ae648ce39b907f447630",
+      "size": 3689
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/java/org/example/service/TaskCoordinatorService.java",
+      "sha256": "6b4c56c68e1d12de72a852e1abe2b3ffe281e2c29020ae1d5c126481d3c02b4e",
+      "size": 2161
+    },
+    {
+      "path": "java-control-plane/coordinator/src/main/resources/application.yml.template",
+      "sha256": "b87bcfedbdf0299690425cf59b1d6bd766eaeeb9e2f8f0210398e3863cf0726d",
+      "size": 629
+    },
+    {
+      "path": "java-control-plane/nacos-config/shardchain-app.yaml.template",
+      "sha256": "5e78eef108e1e0f7465ec2b95ad721ea3286a2b815854fe986850673192982d3",
+      "size": 1835
+    },
+    {
+      "path": "java-control-plane/pom.xml",
+      "sha256": "d98c674236798fd8894520c3a63461571ec3fb28a6363554a3be465fc077f263",
+      "size": 4340
+    },
+    {
+      "path": "java-control-plane/shard-node/pom.xml",
+      "sha256": "917609abfe92150d50d8144ecb65aed6347232da71a12649d7dac705945db5a4",
+      "size": 2249
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/ShardNodeApplication.java",
+      "sha256": "1c26ef1c4866a1b0af102477519bdb647a814d9f8a32ef791bc84da96ff4b2a0",
+      "size": 444
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/config/SchedulingConfig.java",
+      "sha256": "cd462f987b6dd9fd2eedb4fc79d66b11a00771fb0dfc1c1f6373dc7cf5aef555",
+      "size": 225
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/config/ShardLifecycle.java",
+      "sha256": "c3fd16c3a39d0008ff248c8b8ff1a34a5214829b32526d9a685c9e189bfbea72",
+      "size": 737
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/controller/ApiController.java",
+      "sha256": "dcd65c6177330f02704bc98b74504732316c2d99a61e158764603098c40da91a",
+      "size": 1436
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/controller/ShardController.java",
+      "sha256": "204bd1267c85a0d85eb0498e04295cb1ed7081bd9a5bd84d409d98a980b7e31f",
+      "size": 1943
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/dto/SystemMetrics.java",
+      "sha256": "bafb23914d67d434826432f1b1ec62b028bd61306e374743642c079cbe900e2e",
+      "size": 385
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/entity/ShardNode.java",
+      "sha256": "e316a43ece03b867615c39ed16518d086bf2ce78e252ccd8829ec980af727b0d",
+      "size": 345
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/BeaconCommitService.java",
+      "sha256": "afc010bdb659fa77cfe081029404aff673b10e9ac2ad73f4ccd73ee38927102c",
+      "size": 3153
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/LoadMetricsReporter.java",
+      "sha256": "deaab19ce7a7bbf1f720424e76d2d70db376ddfbfc8a3383a4a84f06318b0b42",
+      "size": 7562
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/ShardNodeService.java",
+      "sha256": "cb26d8c30bcf5419795ca83f0211db867c598cf253676ce0bd9fecc9fe4e4533",
+      "size": 2907
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/ShardSelfService.java",
+      "sha256": "3053ef8982fd1d1afe7aca1fde8fe609128d4293602d9a8640fcc113b035ce87",
+      "size": 1187
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/TpsTracker.java",
+      "sha256": "9d3293f671ed29bf97d606604dbc8216456c31240732df6d94967e42b4254019",
+      "size": 379
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/service/TransactionProcessor.java",
+      "sha256": "1d0e7348a001aeb3903f5d9f9955df7957bf7a005426d0ced163870452124a72",
+      "size": 5612
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/util/DockerStatsClient.java",
+      "sha256": "f462fa47bbb3a5869b897bfb250bd288fd4d52a97fb9597a83338d56054877ae",
+      "size": 8150
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/java/org/example/util/SystemMetricsCollector.java",
+      "sha256": "6067a536586dbc6725dc19923c479cb9874eec9793cac56149838a045f0ff0dd",
+      "size": 5868
+    },
+    {
+      "path": "java-control-plane/shard-node/src/main/resources/application.yml.template",
+      "sha256": "1977bc022b6a9123f46be4eb86e79bc901c42f5adc43be3ea416179bb07e9fd4",
+      "size": 647
+    },
+    {
+      "path": "java-control-plane/system-api/pom.xml",
+      "sha256": "a64097e2cbaf640300450a809b56e9e4ff1efe1d833d4806552efb7e9e6d7834",
+      "size": 1391
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/BlockchainProperties.java",
+      "sha256": "6924c76262c70a05e99a7d60b490cf8039e4e9e969a04b0b37cac237ee5df978",
+      "size": 1018
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/BlockchainService.java",
+      "sha256": "fa3fb33d11cf1b080c43ae177f35515ca5b4f8a6a33ee8abe9ee0e593aaa3efd",
+      "size": 16346
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/AffinityManager.java",
+      "sha256": "39d0928319d50d0bc705b932d73e331dfc97f64dc33a8d8d8a02f9b8243325dc",
+      "size": 43379
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/CrossShardCoordinator.java",
+      "sha256": "e24459a27498b41f9a44a748046f15ce891e8d38287325f14730fba9ac2843fb",
+      "size": 49293
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/CrossShardCounter.java",
+      "sha256": "42cb4096682e68b7292075ab4041bfc5ba03f634636f7923da9646943a9a3aff",
+      "size": 16395
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/DigitalAssetRegistry.java",
+      "sha256": "74841b3683ef4e3d5e76c6e070be6f6b44d3067418898ea18461cf670a0cda5e",
+      "size": 38053
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/EnhancedShardRegistryV2.java",
+      "sha256": "377218476eef8b81c1de781c8e8ca899c3d6b42a9538760a0809c65fe7a2db00",
+      "size": 71807
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/EpochBeacon.java",
+      "sha256": "6174b3493deef0a89e36cd802b5e992fe2a96876a91d95d63628cd6db9bead36",
+      "size": 30058
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/MultiObjectiveController.java",
+      "sha256": "b42c3dad616703f0bba58bdb01701d5505b32c16f7d569eb5c469db05a34a2bb",
+      "size": 22609
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/ResourceOracle.java",
+      "sha256": "af8e7fffc6dacdd4eb547727a3a9ea3e3d355227a2ba9f7f18bdb60a009eac68",
+      "size": 34450
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/blockchain/contract/ValidatorRegistry.java",
+      "sha256": "d06e4517145f3c295e8d025daea7f68a540b81b4386a071bae471a1a5361f127",
+      "size": 42466
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/dto/Result.java",
+      "sha256": "e600543b5559cfab11668f29f102332f344e412c99a248f2090c902d0fcd2141",
+      "size": 935
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/dto/ResultCode.java",
+      "sha256": "76829c632e19c7f3c81d9fd28c31fe5a49258d1962d481b2eb3fbb8407b6307e",
+      "size": 449
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/dto/RoutingResult.java",
+      "sha256": "29233c8010ed88fa3099c205b6245c9acd5935ea3543b0a93404080b7e1880ef",
+      "size": 280
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/Agent.java",
+      "sha256": "c04cdff82a861b2074f609c616c10a26faa9ecf93c712d1cba45ad74ff3e0539",
+      "size": 656
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/ChainReceipt.java",
+      "sha256": "18f5633057a9a036c56938c0bee827bb90bda289575d67d5302cdf6ea59be530",
+      "size": 991
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/ChainRequest.java",
+      "sha256": "74de8bc2871a5bbb8496dde906d76763689b478b920df441f52dd95ca3446257",
+      "size": 848
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/ChainTranscription.java",
+      "sha256": "9ecadf2979bab2575aa8c6deb339f4f80f491cc357438bf5db4d47bfb3070462",
+      "size": 1446
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/Coordinator.java",
+      "sha256": "23ba0c528bb7edab01bedbde7934656c9ebef9f7e79f247cac105fe224982a4f",
+      "size": 724
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/Shard.java",
+      "sha256": "acd48ed826a3f8089c7394f5ac2e23838f3d69b9ab1a75530eeb63affd2a0cbc",
+      "size": 702
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/entity/Task.java",
+      "sha256": "ddcb72a8991950982c1f3adf2e0e58b0fcffe717ed9160c36bd2b6c15865ce17",
+      "size": 640
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/AgentStatus.java",
+      "sha256": "c74f6d3d0ec6fca3f367337c6c49b8b7381039d304717ef70c68f8cca01fe69b",
+      "size": 328
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/CoordinatorState.java",
+      "sha256": "489c0d6be501eacd0e56b76e272e51e7c2a9a07a9a53ba38467667a3c0849aff",
+      "size": 397
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/ReceiptStatus.java",
+      "sha256": "b5f88e1c47eb17684a676136f724bf038b648560a35c1c9be9699c066bae502a",
+      "size": 308
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/TaskStatus.java",
+      "sha256": "caf109db93b8c0464b228307e10b806ace3d5b43c1071d79a87fb48ac169126f",
+      "size": 386
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/TaskType.java",
+      "sha256": "2562c93434c607ce552e3257b8822dcc8cff9e28a03ce5db786f92a624d7b134",
+      "size": 373
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/enums/TxType.java",
+      "sha256": "bfa2f474bea4afcd38c87b98a9943183ff60ac17531e9fd22b6ddaf7cb2bfd58",
+      "size": 337
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/AgentMapper.java",
+      "sha256": "9b5e9389b8e0d9db42b9142a8c33200ca90b3edf6b15a1276108cff215f339fe",
+      "size": 231
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/ChainReceiptMapper.java",
+      "sha256": "9ea9f40872e0ea64df7e3fffc0f88d67abe537006051545f3aeb9a8ce1567547",
+      "size": 252
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/ChainRequestMapper.java",
+      "sha256": "8685c73e1eac131876a75f5341367da61a968ac2cad132a791df3db60ee8ba17",
+      "size": 252
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/ChainTranscriptionMapper.java",
+      "sha256": "d2f93f5bf593ba995b70a878000b474da828b7742b02138727b3d97a4f23575a",
+      "size": 270
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/CoordinatorMapper.java",
+      "sha256": "6af3d8f3a43d275f15854c3941e5bb7f722771b3a3d2d5eb1b3d457108574589",
+      "size": 249
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/ShardMapper.java",
+      "sha256": "57bee02ab84481e76357f9b238d23e1d3ab781c3cccaea7936269ebfd8f65e7a",
+      "size": 231
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/mapper/TaskMapper.java",
+      "sha256": "afcbaf5bc19d6fa4d69c62fe8ad3a49229f44268cf5f4b3ac03ae0465d474e3d",
+      "size": 228
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/AgentService.java",
+      "sha256": "cda644ef6e7072ad7ebb3c5da41ff8b833cb9897f93ad3250d62b566a421e70a",
+      "size": 426
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/ChainReceiptService.java",
+      "sha256": "b6dcb9db72c57b9dd96207290af8c73281d2b0889adca4b2677d58dce9e1d3bc",
+      "size": 443
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/ChainRequestService.java",
+      "sha256": "9a2a802cba39d76934ff1e2cc90b264a118ce15e477a9c2143b0a165e7ce8a27",
+      "size": 575
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/ChainTranscriptionService.java",
+      "sha256": "0763f223ab6e138f9125bc539fd490e61618757d5e20b9e0d23cb3545120290b",
+      "size": 437
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/CoordinatorService.java",
+      "sha256": "c284bd5685a0265b28ce1fcc0775d07bc8ba9703ee2a2d35dc5715fdd2112bd7",
+      "size": 488
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/ShardService.java",
+      "sha256": "ac09db8e00d90262d8aab372f31610ab3d504a0b3cf2e3f3815d2072552b1eb5",
+      "size": 411
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/TaskService.java",
+      "sha256": "872d49fbe856e41197eb9b0ef8c1765b31bc3d90832975f84cb8cffb1d6b2ecc",
+      "size": 642
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/AgentServiceImpl.java",
+      "sha256": "eccf56a1c43897e8d01b75222ce1960f2e3685a4aa3206ac341547c74b72c828",
+      "size": 1555
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/ChainReceiptServiceImpl.java",
+      "sha256": "99d38f783c5236aa3b0874272ebdfec37246298667e5ee629b7f99b3b485ba71",
+      "size": 1318
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/ChainRequestServiceImpl.java",
+      "sha256": "9cab6b04d02c7184c8076cd07ced06015188cfbd3b2567436fe4d5d24e272e48",
+      "size": 3575
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/ChainTranscriptionServiceImpl.java",
+      "sha256": "a58d7f80ece3a438b75221e8d02abc5df3b4ec4e9bd9745893f2793ae78a6d01",
+      "size": 1308
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/CoordinatorServiceImpl.java",
+      "sha256": "0ba7235ecfde7c04b41fc4dc84ff7ff4c0c8f80bae08302408a5c4c31d7c4200",
+      "size": 3753
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/ShardServiceImpl.java",
+      "sha256": "16988cc409bcaa87f4ecbd11e5ae240735550517eec93c1381ecc1100d284789",
+      "size": 2380
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/service/impl/TaskServiceImpl.java",
+      "sha256": "3d2eaab919c2c678f920935b88d7951bbd23529c4318232f68139d9b4c607447",
+      "size": 2417
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/java/org/example/util/ServiceDiscoveryUtil.java",
+      "sha256": "5aa493f4d316a332d8ad2e6f8ffbdd7e46a96f080dfd40815d979545f8fa6c58",
+      "size": 883
+    },
+    {
+      "path": "java-control-plane/system-api/src/main/resources/mysql/schema.sql",
+      "sha256": "4e4492178aa350eb66d182e62be59207a06215913958ece63bd0ba1e41a67f3f",
+      "size": 7829
+    },
+    {
+      "path": "java-control-plane/system-controller/pom.xml",
+      "sha256": "5835d003f1ee9eb31147de7de2e460192e3cdf34757a693371610ef805e8e198",
+      "size": 2430
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/SystemControllerApplication.java",
+      "sha256": "e66781d33bcda5bf3ad6a44241d9a23783ad146ebaab62b489430b4e46d148c2",
+      "size": 458
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/config/RestTemplateConfig.java",
+      "sha256": "806b37cba0b322ce650b793731f1c13a0806b19bc97e241455f460ee4366e7ca",
+      "size": 423
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/config/SchedulingConfig.java",
+      "sha256": "6780832c8e27eaf1d972be21d2b833a62fb0978ac69956e942df0c1f597e932b",
+      "size": 224
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/console/ExperimentConsole.java",
+      "sha256": "167cc8d75ce869681c9d892f9c97722d7ec0e96a39f1de476876b78ae5b36a3f",
+      "size": 5876
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/console/ExperimentConsoleService.java",
+      "sha256": "2d1f364a01958f37d1cdca817c69962bfbbfedc9f5ef9ec681148e7cc1c674e8",
+      "size": 12196
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/controller/ExecuteController.java",
+      "sha256": "13ff9bbb5008f460983fbc6bdd2312ef44f481ebca4324a1bc0fd8baf81ee1eb",
+      "size": 2406
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/dto/ExperimentStats.java",
+      "sha256": "9f98f269c768f0371f8e2c76d669e52d74f77ad654e4ac40c30f4b2563c54c62",
+      "size": 1896
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/service/ExperimentDataService.java",
+      "sha256": "9b90a880f38d9cf38f70d85bff2c683208b19b737addbab39180e1b1cfd2da90",
+      "size": 8059
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/service/ExperimentFinishService.java",
+      "sha256": "0eb324c2e9a0533d36792949a16ae0b83cb5c1b1a4f896d1912ee408a03ff00d",
+      "size": 6800
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/service/ExperimentReportService.java",
+      "sha256": "9619d4e6970c78de4a768f6f17f6476794cc584c1568fe9a1a3a55527619e626",
+      "size": 12767
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/java/org/example/service/NodeCommandService.java",
+      "sha256": "866d2c16af45ad5f7dc02d29e6ce9d24d9fb34178ae5b63fa4040189a72890fd",
+      "size": 3661
+    },
+    {
+      "path": "java-control-plane/system-controller/src/main/resources/application.yml.template",
+      "sha256": "ce5211cad9db25184c1a3b7e99bd4569491ce9fda8826f3f1b828c9f81919e49",
+      "size": 429
+    },
+    {
+      "path": "results/onchain-input/onchain_byzantine.json",
+      "sha256": "20aac94953bfbcaca513cf0b0c73cdcf0393e845b5b6dba964f074984b7599ab",
+      "size": 4608
+    },
+    {
+      "path": "results/onchain-input/onchain_epoch_gas.json",
+      "sha256": "366abebb9ad8afa575ee723abdb6375d3c022ff933e8a2c8f6842627cfeb1220",
+      "size": 13664
+    },
+    {
+      "path": "results/onchain-input/onchain_ops.json",
+      "sha256": "48a39c70541289cf964ead6bd2a05e515cf9d55a8b5f2ab5caef75cb6a9fafa8",
+      "size": 40872
+    },
+    {
+      "path": "results/reference/adaptability/adaptability.csv",
+      "sha256": "609234762a12667a9f64142938b2e2664404eb7fd45f85e800ee814d5a8ddb89",
+      "size": 12503
+    },
+    {
+      "path": "results/reference/adaptability/adaptability_summary.csv",
+      "sha256": "b5c9325d8b9c7061aedfc8acd841b871e84c790790b7c407b0231fe40bdc58df",
+      "size": 472
+    },
+    {
+      "path": "results/reference/adaptability/provenance.json",
+      "sha256": "055013cf0df708dd5e818a16087f3fcb553921bf40905e048247e31d55f9bc2e",
+      "size": 1329
+    },
+    {
+      "path": "results/reference/frontier/frontier.csv",
+      "sha256": "5410ca8ff2b9642503a1434b1384a165a58369a16a08d85a1ec77fef95ecba51",
+      "size": 2488
+    },
+    {
+      "path": "results/reference/frontier/frontier_baselines.csv",
+      "sha256": "b480365dc825a8b0c1ffadb6ce8e883c7071a11d995825316d67106113177a4d",
+      "size": 404
+    },
+    {
+      "path": "results/reference/frontier/frontier_repeats.csv",
+      "sha256": "49aaff75eca75d5cd0a285c2787dcc1e30e53437b5c6abfa211b47b19d27840c",
+      "size": 1768
+    },
+    {
+      "path": "results/reference/frontier/provenance.json",
+      "sha256": "5b58e5370f20f823fcea59fccc88f50eb0edd488073b09d63be44950233e297a",
+      "size": 1464
+    },
+    {
+      "path": "results/reference/paper/ablation_mechanisms.csv",
+      "sha256": "830fe4966dc05bfe9a4ab4120a4e788cae37789f98c5c7d99fa5e13e91ce5fbc",
+      "size": 610
+    },
+    {
+      "path": "results/reference/paper/ablation_rebalance.csv",
+      "sha256": "1635c21c9588d4641cbfd3cc75ad2ed9ebf6e063550a73b7c75fadff0215e89a",
+      "size": 194
+    },
+    {
+      "path": "results/reference/paper/adaptability.csv",
+      "sha256": "609234762a12667a9f64142938b2e2664404eb7fd45f85e800ee814d5a8ddb89",
+      "size": 12503
+    },
+    {
+      "path": "results/reference/paper/adaptability_summary.csv",
+      "sha256": "b5c9325d8b9c7061aedfc8acd841b871e84c790790b7c407b0231fe40bdc58df",
+      "size": 472
+    },
+    {
+      "path": "results/reference/paper/background_knowledge.csv",
+      "sha256": "45769323048012acd0688300ea11c0655bedcd7e68098c95a52926d828248f07",
+      "size": 1215
+    },
+    {
+      "path": "results/reference/paper/byzantine_median.csv",
+      "sha256": "2bc2fe626e3091937b6866fe35b0a231d66775d6e67c14db1d32562534794ae7",
+      "size": 5646
+    },
+    {
+      "path": "results/reference/paper/composite_weight_sweep.csv",
+      "sha256": "098ea1b5a38fcfc8a5adae7a88af32150a158c192ab0ab586ebae3034d84bc8c",
+      "size": 1915
+    },
+    {
+      "path": "results/reference/paper/dataset_summary.json",
+      "sha256": "613be242c0c20f1542fe18e3f7d06be316a5b70784de399c4643c8df67f01483",
+      "size": 1427
+    },
+    {
+      "path": "results/reference/paper/epoch_metrics.csv",
+      "sha256": "13ae31438c19b8862b5b7ad8ec470896d2e338d3f07b303d77d780caad5328e8",
+      "size": 8987
+    },
+    {
+      "path": "results/reference/paper/epsilon_sweep.csv",
+      "sha256": "9d0cf6d972d6bbea2f4470c469da4fefe68771784eb9fcf743994548d7e3c3bb",
+      "size": 1930
+    },
+    {
+      "path": "results/reference/paper/frontier.csv",
+      "sha256": "2c3eb23eaed2b4f82938c301b2cdf9858fc8dc27fd702eb884ef6636140b6702",
+      "size": 2489
+    },
+    {
+      "path": "results/reference/paper/frontier_baselines.csv",
+      "sha256": "17bf535c8ac1e0cb70823fcdd930b820bd26192d3fc587a25e6a5ee9e2b19fdd",
+      "size": 391
+    },
+    {
+      "path": "results/reference/paper/frontier_repeats.csv",
+      "sha256": "49aaff75eca75d5cd0a285c2787dcc1e30e53437b5c6abfa211b47b19d27840c",
+      "size": 1768
+    },
+    {
+      "path": "results/reference/paper/metrics.csv",
+      "sha256": "e57b904b3a6f306ab3fcaf3467f59881e4a4a94e808f3f7ede61984db8fd54ff",
+      "size": 1468
+    },
+    {
+      "path": "results/reference/paper/metrics_repeats.csv",
+      "sha256": "63e63c32e8f71cc8d8c91b439c9240d71072e01d3ea0e57c24e99c0123ac5d14",
+      "size": 2664
+    },
+    {
+      "path": "results/reference/paper/onchain_costs.csv",
+      "sha256": "f288dfebce43bf688d9c12739cb1ab88884b8bbb4589bb2b00ddb4081d46e4a4",
+      "size": 10974
+    },
+    {
+      "path": "results/reference/paper/packing_w_grid.csv",
+      "sha256": "83dc59a29b01b3d9850da88992484380df7aa61cbd7c2f6894a8ca76af7d5a1d",
+      "size": 1836
+    },
+    {
+      "path": "results/reference/paper/privacy.csv",
+      "sha256": "89be7e06ab4f8a73062625557d35ae303fa1481be621d37f137bf6d9eaf975db",
+      "size": 643
+    },
+    {
+      "path": "results/reference/paper/provenance.json",
+      "sha256": "deff0ee8264922dcf3a487fccf0128ee5a51824bd632e596350f053c3f3368db",
+      "size": 3579
+    },
+    {
+      "path": "results/reference/paper/resource_dims.csv",
+      "sha256": "b9af597fe630a97b829a24872d7826b4df9e961086da2b0f77302051fd29cd75",
+      "size": 727
+    },
+    {
+      "path": "results/reference/paper/temporal_attack.csv",
+      "sha256": "68686798c9599c7d6348a05b6fda46d9f070646aba1208ce4032939f7c21a331",
+      "size": 964
+    },
+    {
+      "path": "scripts/check_publication.py",
+      "sha256": "413d8d57d16d5e26434f19a9bcdb6dac4576b8ea399ef2bbc8841891ddc33d26",
+      "size": 2413
+    },
+    {
+      "path": "scripts/compare_results.py",
+      "sha256": "562a35973d25a293f1cd7d16379b258b763a3934b4cc1614c7d28ced3fc4f234",
+      "size": 1854
+    },
+    {
+      "path": "scripts/make_manifest.py",
+      "sha256": "77c2137a2cee476e7344e93119b8c0f68681da594f4c50a450b01bcf6350ec1e",
+      "size": 1090
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "sha256": "7d82a5e39c3857abb53d332ee69d4c341df603a279853faebdad082ee70f4aaf",
+      "size": 1944
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "sha256": "c9ce07b9c0dd5063644a12fb19efadb11134b5084e9abaad40a8f201e51a5e70",
+      "size": 1496
+    }
+  ]
+}

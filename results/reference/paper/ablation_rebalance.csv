@@ -1,0 +1,3 @@
+variant,cross_shard_ratio_pct,load_std_pp,relationship_inference_pct
+Sticky mapping,49.05859062381534,1.8792309482268912,87.32
+Per-epoch rebalance,48.382544964407565,1.5596679676793057,53.38

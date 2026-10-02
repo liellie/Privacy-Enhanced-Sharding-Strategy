@@ -1,0 +1,116 @@
+{
+  "description": "Archived experiment configuration, recorded environment and output checksums.",
+  "original_python_version": "3.14.7",
+  "dependencies": {
+    "pycryptodome": "3.23.0"
+  },
+  "cli_args": {
+    "out": "outputs/paper",
+    "shards": 4,
+    "blocks_per_epoch": 100,
+    "theta": 0.15,
+    "epsilon": 0.2,
+    "seed": 20260801,
+    "limit": null,
+    "eval_pairs": 20000,
+    "sweep_epsilons": "0.1,0.2,0.5,0.8,1.2,2.0",
+    "repeats": 5,
+    "seeds": null,
+    "spike_epoch": 12,
+    "spike_factor": 3,
+    "frontier_weights": "0:3.0:0.1",
+    "predictor": "holt",
+    "intra_epoch_feedback": 4.5,
+    "honest_noise_pct": 2,
+    "byz_source_epoch": 10,
+    "permutation_runs": null,
+    "frontier_repeat_ws": "1.5,1.8,2.0,2.4,3.0,3.6,4.5,6.0",
+    "packing_ws": "1.5,2.4,3.0,4.5",
+    "only": null,
+    "all": true,
+    "no_chain_check": false,
+    "skip_sweep": false
+  },
+  "data": {
+    "path": "experiments/data/transactions.txt",
+    "sha256": "65417b9f1efc977296157dd4c5af9307960a022b80153ed89b06a8fc43862e1d"
+  },
+  "outputs": [
+    {
+      "path": "ablation_mechanisms.csv",
+      "sha256": "830fe4966dc05bfe9a4ab4120a4e788cae37789f98c5c7d99fa5e13e91ce5fbc"
+    },
+    {
+      "path": "ablation_rebalance.csv",
+      "sha256": "1635c21c9588d4641cbfd3cc75ad2ed9ebf6e063550a73b7c75fadff0215e89a"
+    },
+    {
+      "path": "adaptability.csv",
+      "sha256": "609234762a12667a9f64142938b2e2664404eb7fd45f85e800ee814d5a8ddb89"
+    },
+    {
+      "path": "adaptability_summary.csv",
+      "sha256": "b5c9325d8b9c7061aedfc8acd841b871e84c790790b7c407b0231fe40bdc58df"
+    },
+    {
+      "path": "background_knowledge.csv",
+      "sha256": "45769323048012acd0688300ea11c0655bedcd7e68098c95a52926d828248f07"
+    },
+    {
+      "path": "byzantine_median.csv",
+      "sha256": "2bc2fe626e3091937b6866fe35b0a231d66775d6e67c14db1d32562534794ae7"
+    },
+    {
+      "path": "composite_weight_sweep.csv",
+      "sha256": "098ea1b5a38fcfc8a5adae7a88af32150a158c192ab0ab586ebae3034d84bc8c"
+    },
+    {
+      "path": "epoch_metrics.csv",
+      "sha256": "13ae31438c19b8862b5b7ad8ec470896d2e338d3f07b303d77d780caad5328e8"
+    },
+    {
+      "path": "epsilon_sweep.csv",
+      "sha256": "9d0cf6d972d6bbea2f4470c469da4fefe68771784eb9fcf743994548d7e3c3bb"
+    },
+    {
+      "path": "frontier.csv",
+      "sha256": "2c3eb23eaed2b4f82938c301b2cdf9858fc8dc27fd702eb884ef6636140b6702"
+    },
+    {
+      "path": "frontier_baselines.csv",
+      "sha256": "17bf535c8ac1e0cb70823fcdd930b820bd26192d3fc587a25e6a5ee9e2b19fdd"
+    },
+    {
+      "path": "frontier_repeats.csv",
+      "sha256": "49aaff75eca75d5cd0a285c2787dcc1e30e53437b5c6abfa211b47b19d27840c"
+    },
+    {
+      "path": "metrics.csv",
+      "sha256": "e57b904b3a6f306ab3fcaf3467f59881e4a4a94e808f3f7ede61984db8fd54ff"
+    },
+    {
+      "path": "metrics_repeats.csv",
+      "sha256": "63e63c32e8f71cc8d8c91b439c9240d71072e01d3ea0e57c24e99c0123ac5d14"
+    },
+    {
+      "path": "onchain_costs.csv",
+      "sha256": "f288dfebce43bf688d9c12739cb1ab88884b8bbb4589bb2b00ddb4081d46e4a4"
+    },
+    {
+      "path": "packing_w_grid.csv",
+      "sha256": "83dc59a29b01b3d9850da88992484380df7aa61cbd7c2f6894a8ca76af7d5a1d"
+    },
+    {
+      "path": "privacy.csv",
+      "sha256": "89be7e06ab4f8a73062625557d35ae303fa1481be621d37f137bf6d9eaf975db"
+    },
+    {
+      "path": "resource_dims.csv",
+      "sha256": "b9af597fe630a97b829a24872d7826b4df9e961086da2b0f77302051fd29cd75"
+    },
+    {
+      "path": "temporal_attack.csv",
+      "sha256": "68686798c9599c7d6348a05b6fda46d9f070646aba1208ce4032939f7c21a331"
+    }
+  ]
+}

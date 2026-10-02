@@ -1,0 +1,52 @@
+{
+  "description": "Archived experiment configuration, recorded environment and output checksums.",
+  "original_python_version": "3.14.7",
+  "dependencies": {
+    "pycryptodome": "3.23.0"
+  },
+  "cli_args": {
+    "out": "outputs/frontier",
+    "shards": 4,
+    "blocks_per_epoch": 100,
+    "theta": 0.15,
+    "epsilon": 0.2,
+    "seed": 20260801,
+    "limit": null,
+    "eval_pairs": 20000,
+    "sweep_epsilons": "0.1,0.2,0.5,0.8,1.2,2.0",
+    "repeats": 5,
+    "seeds": null,
+    "spike_epoch": 12,
+    "spike_factor": 3,
+    "frontier_weights": "0:3.0:0.1",
+    "predictor": "holt",
+    "intra_epoch_feedback": 2.4,
+    "honest_noise_pct": 2,
+    "byz_source_epoch": 10,
+    "permutation_runs": null,
+    "frontier_repeat_ws": "1.5,1.8,2.0,2.4,3.0,3.6,4.5,6.0",
+    "packing_ws": "1.5,1.8,2.0,2.4",
+    "only": "frontier",
+    "all": false,
+    "no_chain_check": false,
+    "skip_sweep": false
+  },
+  "data": {
+    "path": "experiments/data/transactions.txt",
+    "sha256": "65417b9f1efc977296157dd4c5af9307960a022b80153ed89b06a8fc43862e1d"
+  },
+  "outputs": [
+    {
+      "path": "frontier.csv",
+      "sha256": "5410ca8ff2b9642503a1434b1384a165a58369a16a08d85a1ec77fef95ecba51"
+    },
+    {
+      "path": "frontier_baselines.csv",
+      "sha256": "b480365dc825a8b0c1ffadb6ce8e883c7071a11d995825316d67106113177a4d"
+    },
+    {
+      "path": "frontier_repeats.csv",
+      "sha256": "49aaff75eca75d5cd0a285c2787dcc1e30e53437b5c6abfa211b47b19d27840c"
+    }
+  ]
+}
