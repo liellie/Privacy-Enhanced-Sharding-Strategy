@@ -6,7 +6,7 @@ This release contains the trace replay used to study placement quality, archived
 
 **Scope:** placement and inference metrics come from offline replay. Latency and gas metrics come from a separate logical-sharding microbenchmark on one QBFT chain. The Java services are an integration prototype, not the source of the paper's placement results. See [component roles and interfaces](docs/IMPLEMENTATION_SCOPE.md) for the execution paths.
 
-[中文说明](README.zh-CN.md) · [Reproduction guide](docs/REPRODUCIBILITY.md) · [Results map](docs/RESULTS_MAP.md) · [Release changes](docs/RELEASE_NOTES.md)
+ [Reproduction guide](docs/REPRODUCIBILITY.md) · [Results map](docs/RESULTS_MAP.md) · [Release changes](docs/RELEASE_NOTES.md)
 
 ## Quick start
 
