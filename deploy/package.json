@@ -1,0 +1,13 @@
+{
+  "name": "shardchain-contract-tools",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "epoch": "node scripts/epoch-driver.js",
+    "benchmark:onchain": "node scripts/generate-ops.js"
+  },
+  "dependencies": {
+    "ethers": "6.17.0"
+  }
+}

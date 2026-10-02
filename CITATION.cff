@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using its method or results, and identify the software version used."
+type: software
+title: "Privacy-Enhanced Sharding: Research Artifact"
+version: 0.1.0
+authors:
+  - name: "ShardChain contributors"
+license: MIT
+abstract: "Offline trace replay, preserved experiment results, Solidity protocol prototypes and a Java control plane accompanying Privacy-Enhanced Sharding Strategy in Digital Asset Sharing Based on Organizational Affinity and Load Awareness."
+repository-code: "https://github.com/liellie/Privacy-Enhanced-Sharding-Strategy"
