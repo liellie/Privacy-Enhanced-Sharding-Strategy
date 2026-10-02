@@ -1,0 +1,44 @@
+
+
+server:
+  port: 8082
+
+spring:
+  application:
+
+    name: shard-node-1
+
+  cloud:
+    nacos:
+
+      username: ${NACOS_USERNAME:nacos}
+
+      password: ${NACOS_PASSWORD}
+      discovery:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+      config:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+
+  config:
+    import:
+
+      - nacos:shardchain-app.yaml
+
+shard:
+
+  ip-address: ${SHARD_IP_ADDRESS:localhost}
+
+  port: ${server.port}
+
+  docker:
+
+    enabled: true
+
+    container-name: ${SHARD_DOCKER_CONTAINER_NAME:}
+
+    docker-host: ${DOCKER_HOST:unix:///var/run/docker.sock}
+
