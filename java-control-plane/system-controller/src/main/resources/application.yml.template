@@ -1,0 +1,28 @@
+
+
+server:
+  port: 8086
+
+spring:
+  application:
+    name: system-controller
+
+  cloud:
+    nacos:
+
+      username: ${NACOS_USERNAME:nacos}
+
+      password: ${NACOS_PASSWORD}
+      discovery:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+      config:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+
+  config:
+    import:
+
+      - nacos:shardchain-app.yaml
