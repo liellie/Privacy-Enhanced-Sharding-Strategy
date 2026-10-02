@@ -1,0 +1,76 @@
+# Shared service configuration. Supply credentials through environment variables.
+# ============================================================
+
+# ============================================================
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/shardchain_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&createDatabaseIfNotExist=true
+
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+
+    password: ${SPRING_DATASOURCE_PASSWORD}
+
+mybatis-plus:
+  configuration:
+
+    map-underscore-to-camel-case: true
+
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+  global-config:
+    db-config:
+
+      id-type: input
+
+blockchain:
+
+  rpc-url: ${BLOCKCHAIN_RPC_URL:http://localhost:8545}
+
+  chain-id: 20260801
+
+  private-key: ${BLOCKCHAIN_PRIVATE_KEY:}
+  gas-limit: 8000000
+  # Contract addresses must be supplied from your own deployment.
+  contracts:
+    epoch-beacon: ${CONTRACT_EPOCH_BEACON}
+    resource-oracle: ${CONTRACT_RESOURCE_ORACLE}
+    affinity-manager: ${CONTRACT_AFFINITY_MANAGER}
+    cross-shard-counter: ${CONTRACT_CROSS_SHARD_COUNTER}
+    registry: ${CONTRACT_REGISTRY}
+    controller: ${CONTRACT_CONTROLLER}
+    validator-registry: ${CONTRACT_VALIDATOR_REGISTRY}
+    coordinator: ${CONTRACT_COORDINATOR}
+    asset-registry: ${CONTRACT_ASSET_REGISTRY}
+
+coordinator:
+  epoch-duration: 5000
+  scheduler:
+    enabled: true
+  rebalance:
+    tps-threshold: 100
+
+shard:
+  metrics:
+    enabled: true
+    interval-ms: 5000
+  beacon:
+    enabled: true
+    interval-ms: 5000
+
+agent:
+  scheduler:
+    enabled: true
+    interval-ms: 60000
+    batch-size: 1000
+  transaction-file: data/transactions.txt
+
+logging:
+  level:
+
+    com.alibaba.nacos: warn
+
+    org.example: debug
+
+    org.example.mapper: warn

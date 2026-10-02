@@ -1,0 +1,37 @@
+
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: agent-node-1
+
+  cloud:
+    nacos:
+
+      username: ${NACOS_USERNAME:nacos}
+
+      password: ${NACOS_PASSWORD}
+      discovery:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+      config:
+
+        server-addr: ${NACOS_SERVER_ADDR:localhost:8848}
+        namespace: public
+
+  config:
+    import:
+
+      - nacos:shardchain-app.yaml
+
+agent:
+
+  agent-id: agent-1
+
+  organization-id: org-1
+
+  public-key: ${AGENT_PUBLIC_KEY:0x0000000000000000000000000000000000000001}
+
